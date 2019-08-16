@@ -10,11 +10,19 @@
       function handlePhoneNumber() {
         window.location.href = 'phone-number.html';
       }
+      function handleGoogle() {
+        window.location.href = 'google-signin.html';
+      }
+      function handleGithub() {
+        window.location.href = 'github-signin.html';
+      }
     </script>
   </head>
   <body>
     <h1>Sign-up options in Firebase</h1>
     <button type="button" name="btnEmailPwd" onclick="handleEmailPassword()">Email-Password</button><br><br>
-    <button type="button" name="btnPhoneNumber" onclick="handlePhoneNumber()">Phone Number</button>
+    <button type="button" name="btnPhoneNumber" onclick="handlePhoneNumber()">Phone Number</button><br><br>
+    <button type="button" name="btnGoogle" onclick="handleGoogle()">Google</button><br><br>
+    <button type="button" name="btnGithub" onclick="handleGithub()">GitHub</button><br><br>
   </body>
 </html>

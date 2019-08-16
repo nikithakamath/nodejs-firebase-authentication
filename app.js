@@ -8,8 +8,6 @@ let bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(express.static('public'));
 
-app.use(require('./controllers'));
-
 app.listen(port, () => {
   console.log(`App is listening on port ${port}`);
 });
